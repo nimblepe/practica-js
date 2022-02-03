@@ -15,4 +15,5 @@ console.log(soloNombres);
 
 //enunciado b
 const soloDuracion = tasks.map((task) => task.duration);
-console.log(soloDuracion);
+const sumaTotal = soloDuracion.reduce((item, current) => item + current, 0);
+console.log(sumaTotal);
